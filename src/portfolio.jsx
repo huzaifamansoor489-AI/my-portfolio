@@ -924,7 +924,7 @@ export default function Portfolio() {
                 {[
                   { icon: "✉", label: "Email", val: "huzaifamansoor489@gmail.com", href: "mailto:huzaifamansoor489@gmail.com" },
                   { icon: "◈", label: "GitHub", val: "Huzaifamansoor489-AI", href: "https://github.com/huzaifamansoor489-AI" },
-                  { icon: "◉", label: "LinkedIn", val: "-", href: "#" },
+                  { icon: "◉", label: "LinkedIn", val: "Huzaifa Mansoor", href: "https://www.linkedin.com/in/huzaifa-mansoor-3b2a283b9/" },
                 ].map((l) => (
                   <a href={l.href} className="contact-link" key={l.label}>
                     <div className="contact-link-icon">{l.icon}</div>
